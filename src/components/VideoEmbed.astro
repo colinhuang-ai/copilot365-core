@@ -1,0 +1,55 @@
+---
+interface Props {
+  /** Link video: YouTube, Microsoft Stream, Vimeo, hoặc URL embed trực tiếp. Bỏ trống để hiện placeholder. */
+  src?: string;
+  /** Tiêu đề/mô tả video (bắt buộc). */
+  title: string;
+  /** Ghi chú hiển thị trong ô placeholder khi chưa có video. */
+  note?: string;
+  /** Thời lượng dự kiến, ví dụ "6:30". */
+  duration?: string;
+}
+const { src, title, note, duration } = Astro.props;
+
+function toEmbed(u?: string): string | null {
+  if (!u) return null;
+  try {
+    const url = new URL(u);
+    if (url.hostname.includes('youtube.com')) {
+      const v = url.searchParams.get('v');
+      return v ? `https://www.youtube.com/embed/${v}` : u;
+    }
+    if (url.hostname === 'youtu.be') {
+      return `https://www.youtube.com/embed${url.pathname}`;
+    }
+    return u; // Microsoft Stream / Vimeo / URL embed khác dùng trực tiếp
+  } catch {
+    return u;
+  }
+}
+const embed = toEmbed(src);
+---
+
+{embed ? (
+  <figure class="sl-video">
+    <div class="sl-video__frame">
+      <iframe
+        src={embed}
+        title={title}
+        loading="lazy"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+    </div>
+    <figcaption class="sl-video__cap">🎬 {title}{duration && <span> · {duration}</span>}</figcaption>
+  </figure>
+) : (
+  <div class="sl-video sl-video--placeholder" role="img" aria-label={`Video: ${title} (sẽ cập nhật)`}>
+    <span class="sl-video__play" aria-hidden="true">▶</span>
+    <span class="sl-video__phtitle">{title}</span>
+    <span class="sl-video__phnote">
+      {note ?? 'Video sẽ được cập nhật. Thêm link vào thuộc tính src="" của <VideoEmbed /> (YouTube / Microsoft Stream / Vimeo).'}
+    </span>
+    {duration && <span class="sl-video__phdur">Thời lượng dự kiến: {duration}</span>}
+  </div>
+)}

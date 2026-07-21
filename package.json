@@ -1,0 +1,24 @@
+{
+  "name": "copilot-m365-qakits-ebook",
+  "type": "module",
+  "version": "2.0.0",
+  "description": "Ebook/LMS: Sử dụng AI Chat (Copilot for M365) trong việc chuẩn bị QA Kits — 5 module cơ bản",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy:pages": "npm run build && wrangler pages deploy ./dist",
+    "deploy:worker": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.3",
+    "astro": "^7.1.3",
+    "sharp": "^0.34.0",
+    "starlight-sidebar-topics": "^0.8.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: "Quiz · Buổi 4"
+description: Tự kiểm tra kiến thức Buổi 4 — Copilot trong Outlook & Teams.
+---
+
+import Quiz from '../../../../components/Quiz.astro';
+
+<span class="item-kind">❓ QUIZ</span>
+
+Chọn đáp án rồi bấm **Kiểm tra đáp án**. Giải thích chi tiết ở mục **Bài giải** trên menu.
+
+<Quiz
+  questions={[
+    {
+      q: 'Tính năng nào của Outlook giúp bạn nhận nhận xét về email TRƯỚC khi gửi?',
+      options: ['Intelligent Recap', 'Coaching by Copilot', 'PivotTable', 'Draft from file'],
+      answer: 1,
+      hint: 'Coaching = huấn luyện/nhận xét.',
+    },
+    {
+      q: 'Sau một cuộc họp Teams, tính năng nào tự tạo action items, mốc thời gian và ghi chú?',
+      options: ['Intelligent Recap', 'Rewrite', 'AutoSave', 'Restricted Search'],
+      answer: 0,
+      hint: 'Recap = tóm tắt lại cuộc họp.',
+    },
+    {
+      q: 'Khi vào họp muộn, câu hỏi nào tận dụng recap real-time của Copilot?',
+      options: [
+        '"Tôi vừa vào muộn, nãy giờ đã bàn gì?"',
+        '"Tạo biểu đồ cột"',
+        '"Chuyển văn bản thành bảng"',
+        '"Bật AutoSave"',
+      ],
+      answer: 0,
+      hint: 'Real-time trong lúc họp.',
+    },
+    {
+      q: 'Khi tóm tắt một thread email dài, Copilot còn giúp bạn xác định điều gì?',
+      options: ['Màu nền email', 'Action items và người phụ trách', 'Kích thước file đính kèm', 'Múi giờ'],
+      answer: 1,
+      hint: 'Việc cần làm sau khi đọc email.',
+    },
+  ]}
+/>
+
+Tiếp tục với [🎭 Role play với thầy giáo AI →](/khoa-hoc/buoi-4/role-play/)

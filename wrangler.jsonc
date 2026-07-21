@@ -1,0 +1,12 @@
+{
+  // Cấu hình deploy lên Cloudflare Workers (Static Assets).
+  // Đây là site tĩnh nên chỉ cần phục vụ thư mục ./dist — không cần Worker script.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "copilot-m365-qakits",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./dist",
+    // Trả về đúng trang cho URL không có đuôi .html (Starlight sinh /buoi-1/index.html)
+    "not_found_handling": "404-page"
+  }
+}

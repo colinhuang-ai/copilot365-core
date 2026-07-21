@@ -1,0 +1,81 @@
+---
+interface Question {
+  /** Nội dung câu hỏi. */
+  q: string;
+  /** Danh sách phương án. */
+  options: string[];
+  /** Chỉ số (bắt đầu từ 0) của phương án đúng. */
+  answer: number;
+  /** Gợi ý hiển thị khi trả lời sai. */
+  hint?: string;
+}
+interface Props {
+  questions: Question[];
+  title?: string;
+}
+const { questions, title } = Astro.props;
+// id ngẫu nhiên ở thời điểm build để nhóm radio không trùng nhau trên cùng trang.
+const uid = 'q' + Math.random().toString(36).slice(2, 8);
+---
+
+<div class="sl-quiz">
+  {title && <p class="sl-quiz__title">{title}</p>}
+  <ol class="sl-quiz__list">
+    {questions.map((question, qi) => (
+      <li class="sl-quiz__q" data-answer={question.answer}>
+        <p class="sl-quiz__prompt">{question.q}</p>
+        <div class="sl-quiz__options">
+          {question.options.map((opt, oi) => (
+            <label class="sl-quiz__option">
+              <input type="radio" name={`${uid}-${qi}`} value={oi} />
+              <span>{opt}</span>
+            </label>
+          ))}
+        </div>
+        {question.hint && <p class="sl-quiz__hint" hidden>💡 {question.hint}</p>}
+        <p class="sl-quiz__result" hidden></p>
+      </li>
+    ))}
+  </ol>
+  <button class="sl-quiz__check" type="button">Kiểm tra đáp án</button>
+  <p class="sl-quiz__score" hidden aria-live="polite"></p>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.sl-quiz').forEach((quiz) => {
+    const btn = quiz.querySelector<HTMLButtonElement>('.sl-quiz__check');
+    btn?.addEventListener('click', () => {
+      let correct = 0;
+      const qs = quiz.querySelectorAll<HTMLElement>('.sl-quiz__q');
+      qs.forEach((q) => {
+        const answer = Number(q.getAttribute('data-answer'));
+        const checked = q.querySelector<HTMLInputElement>('input[type=radio]:checked');
+        const result = q.querySelector<HTMLElement>('.sl-quiz__result');
+        const hint = q.querySelector<HTMLElement>('.sl-quiz__hint');
+        if (!result) return;
+        result.hidden = false;
+        if (!checked) {
+          result.textContent = '⚠️ Bạn chưa chọn đáp án';
+          result.className = 'sl-quiz__result is-empty';
+          if (hint) hint.hidden = true;
+          return;
+        }
+        if (Number(checked.value) === answer) {
+          correct++;
+          result.textContent = '✅ Chính xác!';
+          result.className = 'sl-quiz__result is-correct';
+          if (hint) hint.hidden = true;
+        } else {
+          result.textContent = '❌ Chưa đúng — xem gợi ý rồi thử lại.';
+          result.className = 'sl-quiz__result is-wrong';
+          if (hint) hint.hidden = false;
+        }
+      });
+      const score = quiz.querySelector<HTMLElement>('.sl-quiz__score');
+      if (score) {
+        score.hidden = false;
+        score.textContent = `Kết quả: ${correct}/${qs.length} câu đúng. Xem giải thích chi tiết ở mục “Bài giải” trên menu.`;
+      }
+    });
+  });
+</script>

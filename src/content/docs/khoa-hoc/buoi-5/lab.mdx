@@ -1,0 +1,42 @@
+---
+title: "Bài Lab · Buổi 5"
+description: Tạo 1 SharePoint agent từ bộ tài liệu mẫu và kiểm thử 5 câu hỏi thực tế.
+---
+
+import VideoEmbed from '../../../../components/VideoEmbed.astro';
+import { Steps, Aside } from '@astrojs/starlight/components';
+
+<span class="item-kind">🧪 BÀI LAB</span>
+
+**Mục tiêu Lab:** Tạo một **SharePoint agent** và kiểm thử **5 câu hỏi** thực tế.
+
+<VideoEmbed title="Video guide: Tạo & kiểm thử SharePoint Agent" duration="8:00" note="Video hướng dẫn Lab sẽ được cập nhật ở đây." />
+
+## Lab — Sales Kit Assistant
+
+<Steps>
+
+1. **Chọn nguồn:** mở một **thư viện tài liệu** SharePoint chứa bộ sales/marketing collateral.
+
+2. **Tạo agent:** dùng chức năng tạo agent (1 click) ngay trên site → đặt tên **"Sales Kit Assistant"**, mô tả phạm vi tri thức.
+
+3. **Kiểm thử 5 câu hỏi**, ví dụ:
+   ```text
+   1) Bảng giá mới nhất của sản phẩm X là gì?
+   2) Có case study ngành giáo dục nào không? Tóm tắt 2 câu mỗi case.
+   3) Điều khoản bảo hành tiêu chuẩn của chúng ta là gì?
+   4) Tài liệu one-pager nào phù hợp gửi cho khách hàng doanh nghiệp?
+   5) Tóm tắt điểm khác biệt so với đối thủ.
+   ```
+
+4. **Đánh giá:** câu nào trả lời đúng? câu nào cần **scope** lại (chỉ định thư mục/file)?
+
+5. **Chia sẻ:** gửi agent cho một đồng nghiệp qua **Teams chat**.
+
+</Steps>
+
+<Aside type="caution">
+Trước khi chia sẻ rộng, kiểm tra thư viện nguồn có tài liệu **nhạy cảm bị oversharing** không — agent sẽ trả lời từ mọi tài liệu người dùng được phép thấy.
+</Aside>
+
+Tiếp tục với [✍️ Bài tập →](/khoa-hoc/buoi-5/bai-tap/)

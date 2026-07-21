@@ -1,0 +1,73 @@
+---
+title: "Lý thuyết · Buổi 1"
+description: Copilot for M365 là gì, kiến trúc, khác biệt với ChatGPT/Claude, bảo mật, điểm truy cập và công thức prompt G-C-S-E.
+---
+
+import VideoEmbed from '../../../../components/VideoEmbed.astro';
+import { Aside } from '@astrojs/starlight/components';
+
+<span class="item-kind">📖 LÝ THUYẾT</span>
+
+<VideoEmbed title="Tổng quan Copilot for M365 & Kỹ năng Prompt" duration="8:00" note="Video demo tổng quan sẽ được cập nhật ở đây." />
+
+## Copilot for M365 là gì
+
+**Microsoft 365 Copilot** là trợ lý AI được nhúng vào bộ ứng dụng Microsoft 365. Kiến trúc gồm ba thành phần kết hợp:
+
+1. **LLM (Large Language Model)** — mô hình ngôn ngữ lớn tạo ra câu trả lời.
+2. **Microsoft Graph** — lớp kết nối tới dữ liệu tổ chức của bạn (email, file, chat, lịch, danh bạ…).
+3. **Dữ liệu tổ chức** — nội dung thực tế mà bạn *đã có quyền truy cập*.
+
+Khi bạn hỏi, Copilot lấy đúng ngữ cảnh từ Microsoft Graph, ghép vào câu hỏi rồi mới đưa cho mô hình trả lời (kỹ thuật *grounding*). Nhờ vậy câu trả lời bám vào dữ liệu thật của công ty, không chung chung.
+
+## Khác gì ChatGPT / Claude?
+
+| | Copilot for M365 | ChatGPT / Claude (bản công cộng) |
+| --- | --- | --- |
+| Biết dữ liệu công ty bạn | Có (qua Microsoft Graph) | Không |
+| Tôn trọng phân quyền | Có — chỉ thấy file bạn được phép | Không áp dụng |
+| Nhúng trong Word/Excel/Teams… | Có | Không (phải copy–paste) |
+| Dữ liệu dùng để train model | **Không** | Tùy chính sách/sản phẩm |
+
+## Giới hạn truy cập & bảo mật
+
+- Copilot **chỉ truy cập dữ liệu bạn đã có quyền xem** — thừa hưởng đúng phân quyền hiện có.
+- **Dữ liệu của bạn không được dùng để huấn luyện mô hình nền tảng.**
+- Câu trả lời phụ thuộc chất lượng và độ mới của dữ liệu nội bộ; vẫn cần bạn kiểm chứng.
+
+<Aside type="caution">
+Vì Copilot thấy mọi thứ bạn được phép thấy, một tổ chức chia sẻ file quá tay (**oversharing**) có thể khiến Copilot trả lời từ cả những tài liệu "không nên thấy". Chủ đề này được đào sâu ở [Buổi 5](/khoa-hoc/buoi-5/ly-thuyet/).
+</Aside>
+
+## Các điểm truy cập
+
+- **Copilot Chat** — hai ngữ cảnh:
+  - **Work tab**: dùng dữ liệu tổ chức (grounded trên Microsoft Graph) — nơi hỏi đáp nội bộ.
+  - **Web tab**: chỉ dùng kiến thức web, *không* chạm dữ liệu công ty.
+- **Copilot trong từng app** — nút Copilot ngay trong Word, Excel, PowerPoint, Outlook, Teams.
+- **Copilot trên di động** — qua ứng dụng **Teams** và **Outlook** mobile.
+
+<Aside type="tip" title="Nhận biết bạn đang ở đâu">
+Biểu tượng Copilot nền màu, ghi "Work" → đang làm việc với dữ liệu tổ chức. Ghi "Web" → chỉ dựa trên internet.
+</Aside>
+
+## Công thức prompt hiệu quả: G-C-S-E
+
+Một prompt tốt nên có đủ bốn phần:
+
+| Thành phần | Câu hỏi tự đặt | Ví dụ |
+| --- | --- | --- |
+| **Goal** (Mục tiêu) | Tôi muốn Copilot làm gì? | "Viết email nhắc khách gia hạn hợp đồng" |
+| **Context** (Bối cảnh) | Ai đọc? Tình huống nào? | "Khách ngành giáo dục, hợp đồng hết hạn cuối tháng" |
+| **Source** (Nguồn) | Dựa trên dữ liệu nào? | "Dựa trên file `Hợp đồng ABC.docx` và email gần nhất" |
+| **Expectation** (Kỳ vọng) | Định dạng, độ dài, giọng văn? | "Giọng thân thiện, dưới 150 từ, có lời chào" |
+
+<VideoEmbed title="Demo: viết lại 3 prompt tệ thành prompt tốt" duration="5:30" note="Video demo cải thiện prompt sẽ được cập nhật ở đây." />
+
+### Ví dụ cải thiện
+
+> ❌ **Tệ:** "Viết báo cáo"
+>
+> ✅ **Tốt:** "Viết bản nháp **báo cáo kết quả bán hàng Quý 2** *(Goal)* cho **ban giám đốc** *(Context)*, dựa trên **`Doanh số Q2.xlsx`** *(Source)*, trình bày **dạng gạch đầu dòng, tối đa 1 trang, giọng trang trọng** *(Expectation)*."
+
+Tiếp tục với [🧪 Bài Lab →](/khoa-hoc/buoi-1/lab/)
