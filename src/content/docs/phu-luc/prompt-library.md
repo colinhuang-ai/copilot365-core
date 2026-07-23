@@ -3,7 +3,7 @@ title: "Thư viện Prompt"
 description: Bộ prompt mẫu sẵn dùng theo từng ứng dụng Microsoft 365, áp dụng công thức G-C-S-E.
 ---
 
-Sao chép và điều chỉnh. Tất cả bám công thức **Goal – Context – Source – Expectation** ([xem Buổi 1](/khoa-hoc/buoi-1/ly-thuyet/)).
+Sao chép và điều chỉnh. Tất cả bám công thức **Goal – Context – Source – Expectation** ([xem Buổi 1](/khoa-hoc/buoi-1/ly-thuyet/6-prompt-gcse/)).
 
 ## Copilot Chat (Work tab)
 

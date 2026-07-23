@@ -1,42 +1,33 @@
 ---
 title: "Chia sẻ & Feedback · Buổi 5"
-description: Tổng kết phần cơ bản, giới thiệu lộ trình nâng cao, và để lại góp ý qua dot.
+description: Tự phản tư, chia sẻ kết quả tạo agent và để lại góp ý cho Buổi 5 qua dot.
 ---
 
 <span class="item-kind">💬 CHIA SẺ & FEEDBACK</span>
 
-## Tổng kết phần cơ bản 🎉
-
-Bạn đã hoàn thành **5 module cơ bản**:
-
-1. Tổng quan Copilot & Kỹ năng Prompt
-2. Word & PowerPoint
-3. Excel
-4. Outlook & Teams
-5. SharePoint & Copilot cho Enterprise
-
-Từ nền tảng và prompt, tới soạn thảo, phân tích, email/họp và khai thác kho tri thức nội bộ.
-
 ## Tự phản tư (2 phút)
-- Module nào tạo thay đổi lớn nhất cho công việc của bạn?
-- Bạn sẽ áp dụng SharePoint Agent vào quy trình nào?
+
+- Điều giá trị nhất bạn học được ở Buổi 5 là gì?
+- Kho tri thức nào của tổ chức bạn sẽ biến thành **agent** đầu tiên?
+- Sau buổi này, bạn nhìn nhận rủi ro **oversharing** khác đi như thế nào?
 
 ## Chia sẻ với lớp
-- Agent bạn đã tạo và 1 câu hỏi nó trả lời tốt nhất.
-- 1 rủi ro oversharing bạn phát hiện và cách xử lý.
+
+- Kể về **SharePoint Agent** bạn đã tạo: nguồn là gì, kết quả 5 câu kiểm thử ra sao.
+- Chia sẻ **1 phát hiện về quyền/oversharing** khi rà soát nguồn của agent.
 
 ## Để lại feedback trên trang này (dot.)
 
 :::note[Feedback bằng dot.]
-Trang này bật **dot.** — click vào bất kỳ đâu để **ghim bình luận** (không cần đăng ký).
+Trang học này được bật **dot.** — công cụ để bạn **click vào bất kỳ đâu trên trang và ghim bình luận** (không cần đăng ký). Dùng để hỏi, góp ý nội dung, hoặc báo lỗi ngay tại chỗ.
 
-👉 **Link review dot. sẽ được chèn vào đây sau khi ebook được deploy.**
+👉 **Link review dot. sẽ được chèn vào đây sau khi ebook được deploy.** Khi đó bạn chỉ cần mở link, click vào đoạn cần góp ý và để lại bình luận.
 :::
 
-:::tip[Tiếp theo: lộ trình nâng cao]
-Bước tiếp theo là **lộ trình 5 buổi nâng cao về AI Agent** — xây dựng và tùy biến agent cho quy trình chuyên sâu của đội ngũ. Hẹn gặp bạn ở phần nâng cao!
+:::tip
+Giảng viên có thể tạo link dot. cho từng buổi và dán vào ô trên, hoặc dùng chung một link cho cả ebook.
 :::
 
 ---
 
-Xem thêm: [Bài giải](/bai-giai/) · [Phụ lục](/phu-luc/)
+Hoàn thành Buổi 5! Tiếp tục [Buổi 6 · Mở rộng →](/khoa-hoc/buoi-6/)

@@ -27,6 +27,12 @@ Nhiệm vụ của bạn:
 Giữ giọng thẳng thắn, thực tế. Bắt đầu ngay với tình huống đầu tiên.
 ```
 
+## Gợi ý kịch bản
+
+- **Vòng 1:** Đoạn hội thoại họp có 2 người được giao việc kèm hạn — viết prompt tạo biên bản + action items.
+- **Vòng 2:** Một thread email khách hàng phàn nàn về tiến độ — viết prompt tóm tắt rồi draft reply, chạy thử Coaching.
+- **Vòng 3:** Bạn vào họp muộn — viết câu hỏi recap real-time để bắt kịp mạch họp.
+
 ## Tiêu chí nên đạt
 - Viết được prompt tạo biên bản có đủ action items + người phụ trách + mốc thời gian.
 - Rút ra 2–3 thói quen quản lý email/họp với Copilot.

@@ -17,8 +17,8 @@ Tên và vị trí tính năng của Copilot được Microsoft cập nhật th�
 ## Học tiếp
 
 - Ôn lại [Thư viện Prompt](/phu-luc/prompt-library/) và luyện viết prompt G-C-S-E mỗi ngày.
-- Hoàn thành [Bài giải](/bai-giai/) để kiểm tra hiểu biết.
-- Chuẩn bị cho **lộ trình 5 buổi nâng cao về AI Agent** (giới thiệu ở cuối [Buổi 5](/khoa-hoc/buoi-5/feedback/)).
+- Hoàn thành [Giải pháp](/giai-phap/) để kiểm tra hiểu biết.
+- Chuẩn bị cho **lộ trình 5 buổi nâng cao về AI Agent** (giới thiệu ở [Buổi 6 · Mở rộng](/khoa-hoc/buoi-6/)).
 
 ## Liên hệ
 

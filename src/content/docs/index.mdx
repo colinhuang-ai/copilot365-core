@@ -1,9 +1,9 @@
 ---
 title: Copilot for M365 · Chuẩn bị QA Kits
-description: Ebook/LMS lộ trình 5 module về sử dụng AI Chat (Microsoft 365 Copilot) trong việc chuẩn bị QA Kits — dành cho đội Sales & Marketing.
+description: Ebook/LMS 6 module về sử dụng AI Chat (Microsoft 365 Copilot) trong việc chuẩn bị QA Kits — dành cho đội Sales & Marketing.
 template: splash
 hero:
-  tagline: Biến Microsoft 365 Copilot thành trợ lý chuẩn bị QA Kits của bạn. 5 module — mỗi module có lý thuyết, lab, bài tập, quiz và role play với thầy giáo AI.
+  tagline: Biến Microsoft 365 Copilot thành trợ lý chuẩn bị QA Kits của bạn. 6 module — mỗi module có lý thuyết chia unit, lab, bài tập, quiz và role play với thầy giáo AI.
   image:
     file: ../../assets/hero.svg
   actions:
@@ -11,7 +11,7 @@ hero:
       link: /khoa-hoc/buoi-1/
       icon: right-arrow
       variant: primary
-    - text: Bài giải & Phụ lục
+    - text: Giải pháp & Phụ lục
       link: /phu-luc/
       icon: open-book
       variant: minimal
@@ -19,11 +19,11 @@ hero:
 
 import { Card, CardGrid, Steps, Aside, LinkCard } from '@astrojs/starlight/components';
 
-## Lộ trình 5 module
+## Lộ trình khóa học (6 module)
 
 <CardGrid>
-	<Card title="Buổi 1 · Tổng quan & Prompt" icon="seti:notebook">
-		Kiến trúc & bảo mật của Copilot, các điểm truy cập, và công thức prompt **Goal – Context – Source – Expectation**.
+	<Card title="Buổi 1 · Nền tảng & Prompt" icon="seti:notebook">
+		GenAI, kiến trúc & bảo mật Copilot, use case theo vị trí, và công thức prompt **G-C-S-E**. *(Có hook + Dự án)*
 		[Vào module →](/khoa-hoc/buoi-1/)
 	</Card>
 	<Card title="Buổi 2 · Word & PowerPoint" icon="document">
@@ -31,7 +31,7 @@ import { Card, CardGrid, Steps, Aside, LinkCard } from '@astrojs/starlight/compo
 		[Vào module →](/khoa-hoc/buoi-2/)
 	</Card>
 	<Card title="Buổi 3 · Excel" icon="bars">
-		Phân tích dữ liệu bằng ngôn ngữ tự nhiên, tạo công thức, chart, PivotTable, Python in Excel.
+		Clean data, phát hiện sai sót, viết hộ công thức, chart/PivotTable, Python in Excel.
 		[Vào module →](/khoa-hoc/buoi-3/)
 	</Card>
 	<Card title="Buổi 4 · Outlook & Teams" icon="email">
@@ -42,11 +42,13 @@ import { Card, CardGrid, Steps, Aside, LinkCard } from '@astrojs/starlight/compo
 		Hỏi đáp trên kho tri thức nội bộ, tạo SharePoint Agent 1-click, vấn đề oversharing.
 		[Vào module →](/khoa-hoc/buoi-5/)
 	</Card>
-	<Card title="Bài giải & Phụ lục" icon="puzzle">
-		Đáp án quiz kèm giải thích, thư viện prompt và thuật ngữ — truy cập từ **menu phía trên**.
-		[Xem phụ lục →](/phu-luc/)
+	<Card title="Buổi 6 · Mở rộng (Extend)" icon="rocket">
+		Loop, Power BI, To Do & các app khác; từ Chat → Agent; showcase capstone của học viên.
+		[Vào module →](/khoa-hoc/buoi-6/)
 	</Card>
 </CardGrid>
+
+<LinkCard title="Giải pháp & Phụ lục" href="/phu-luc/" description="Đáp án quiz kèm giải thích, video chữa Dự án, thư viện prompt và thuật ngữ — truy cập từ menu phía trên." />
 
 ---
 
@@ -65,7 +67,7 @@ import { Card, CardGrid, Steps, Aside, LinkCard } from '@astrojs/starlight/compo
 
 ## Giới thiệu ebook
 
-Đây là **Phần cơ bản: Sử dụng AI Chat trong việc chuẩn bị QA Kits** — lộ trình **5 module (mỗi buổi ~60 phút)** giúp đội ngũ (đặc biệt Sales & Marketing) khai thác **Microsoft 365 Copilot** để làm việc nhanh hơn và chuẩn hơn.
+Đây là **Phần cơ bản: Sử dụng AI Chat trong việc chuẩn bị QA Kits** — lộ trình **6 module (5 buổi lõi + 1 buổi mở rộng, mỗi buổi ~60 phút)** giúp đội ngũ (đặc biệt Sales & Marketing) khai thác **Microsoft 365 Copilot** để làm việc nhanh hơn và chuẩn hơn.
 
 **Bạn sẽ học được:**
 
@@ -77,7 +79,7 @@ import { Card, CardGrid, Steps, Aside, LinkCard } from '@astrojs/starlight/compo
 **Đối tượng:** Nhân sự Sales, Marketing, vận hành và bất kỳ ai dùng Microsoft 365 hằng ngày. **Không yêu cầu biết lập trình.**
 
 <Aside type="note" title="Sau phần cơ bản">
-Kết thúc 5 module này sẽ có **lộ trình 5 buổi nâng cao về AI Agent** (giới thiệu ở cuối Buổi 5).
+**Buổi 6 (Mở rộng)** giới thiệu các app khác và mở đường sang **lộ trình 5 buổi nâng cao về AI Agent (Superhero)**.
 </Aside>
 
 ---
@@ -90,7 +92,7 @@ Kết thúc 5 module này sẽ có **lộ trình 5 buổi nâng cao về AI Agen
 
 2. **Làm Lab song song** với ứng dụng Microsoft 365 thật của bạn để ghi nhớ thao tác.
 
-3. **Tự chấm Quiz** ngay trên trang; xem giải thích chi tiết ở mục **Bài giải** (menu phía trên).
+3. **Làm Quiz**; xem đáp án + giải thích và **video chữa Dự án** ở mục **Giải pháp** (menu phía trên).
 
 4. **Luyện Role play** với thầy giáo AI để củng cố, rồi **chia sẻ feedback** ở cuối mỗi module.
 
@@ -126,7 +128,7 @@ Nhiều bài Lab cần dữ liệu thật. Hãy chuẩn bị trước:
 </Aside>
 
 <Aside type="tip" title="Bảo mật">
-Copilot chỉ truy cập dữ liệu **bạn đã có quyền xem**, và **dữ liệu của bạn không được dùng để huấn luyện mô hình**. Chi tiết ở [Buổi 1](/khoa-hoc/buoi-1/ly-thuyet/); vấn đề **oversharing** ở [Buổi 5](/khoa-hoc/buoi-5/ly-thuyet/).
+Copilot chỉ truy cập dữ liệu **bạn đã có quyền xem**, và **dữ liệu của bạn không được dùng để huấn luyện mô hình**. Chi tiết ở [Buổi 1](/khoa-hoc/buoi-1/ly-thuyet/4-core-components/); vấn đề **oversharing** ở [Buổi 5](/khoa-hoc/buoi-5/ly-thuyet/4-governance/).
 </Aside>
 
 <LinkCard title="Sẵn sàng? Bắt đầu Buổi 1 →" href="/khoa-hoc/buoi-1/" description="Tổng quan Copilot & Kỹ năng Prompt" />
