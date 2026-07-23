@@ -2,7 +2,7 @@
   // Cấu hình deploy lên Cloudflare Workers (Static Assets).
   // Đây là site tĩnh nên chỉ cần phục vụ thư mục ./dist — không cần Worker script.
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "copilot-m365-qakits",
+  "name": "copilot365-core",
   "compatibility_date": "2026-07-01",
   "assets": {
     "directory": "./dist",
