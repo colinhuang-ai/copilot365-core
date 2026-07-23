@@ -26,4 +26,4 @@ Sau Buổi 4, bạn có thể:
 Đi theo thứ tự sidebar. Mở Outlook và Teams thật của bạn để thực hành song song. Đáp án Quiz nằm ở mục **Giải pháp** trên menu.
 :::
 
-👉 Bắt đầu: [1 · Tóm tắt thread email →](/khoa-hoc/buoi-4/ly-thuyet/1-outlook-summarize/)
+👉 Bắt đầu: [1 · Tóm tắt thread email →](/khoa-hoc/buoi-4/01-outlook-summarize/)

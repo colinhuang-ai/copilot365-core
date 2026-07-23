@@ -3,7 +3,7 @@ title: "Đáp án Quiz · Buổi 4"
 description: Đáp án và giải thích Quiz Buổi 4 — Outlook & Teams.
 ---
 
-Đối chiếu sau khi bạn đã làm [Quiz Buổi 4](/khoa-hoc/buoi-4/quiz/).
+Đối chiếu sau khi bạn đã làm [Quiz Buổi 4](/khoa-hoc/buoi-4/13-assessment/).
 
 1. **Tính năng nhận nhận xét về email TRƯỚC khi gửi, không viết hộ?**
    ✅ **B — Coaching by Copilot.** Coaching giữ nguyên email bạn tự viết và chỉ nhận xét về *tone*, *reader sentiment* và *clarity*; Draft mới là viết hộ.

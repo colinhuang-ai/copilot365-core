@@ -3,7 +3,7 @@ title: "Đáp án Quiz · Buổi 3"
 description: Đáp án và giải thích Quiz Buổi 3 — Excel với Copilot.
 ---
 
-Đối chiếu sau khi bạn đã làm [Quiz Buổi 3](/khoa-hoc/buoi-3/quiz/).
+Đối chiếu sau khi bạn đã làm [Quiz Buổi 3](/khoa-hoc/buoi-3/12-assessment/).
 
 1. **Bộ điều kiện tiên quyết để Copilot phân tích được file Excel?**
    ✅ **B — Dữ liệu là Table + file trên OneDrive/SharePoint + bật AutoSave.**

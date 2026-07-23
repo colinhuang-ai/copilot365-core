@@ -25,4 +25,4 @@ Sau Buổi 5, bạn có thể:
 Đi theo thứ tự sidebar. Mở SharePoint và Copilot thật của tổ chức để thực hành song song. Đáp án Quiz nằm ở mục **Giải pháp** trên menu.
 :::
 
-👉 Bắt đầu: [1 · Hỏi đáp trên SharePoint/OneDrive →](/khoa-hoc/buoi-5/ly-thuyet/1-hoi-dap-sharepoint/)
+👉 Bắt đầu: [1 · Hỏi đáp trên SharePoint/OneDrive →](/khoa-hoc/buoi-5/01-hoi-dap-sharepoint/)

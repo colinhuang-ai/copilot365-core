@@ -35,4 +35,4 @@ Sau đó là **Capstone Showcase** — những dự án thật của học viên
 Đừng cố ghi nhớ từng nút bấm. Hãy để những ví dụ này gieo ý tưởng: *"À, chỗ này mình cũng nhờ Copilot được!"*
 :::
 
-👉 Bắt đầu: [1 · Copilot trong Loop →](/khoa-hoc/buoi-6/ly-thuyet/1-loop/)
+👉 Bắt đầu: [1 · Copilot trong Loop →](/khoa-hoc/buoi-6/01-loop/)

@@ -24,4 +24,4 @@ Sau Buổi 2, bạn có thể:
 Đi theo thứ tự sidebar. Mở Word và PowerPoint thật của bạn để thực hành song song. Đáp án Quiz nằm ở mục **Giải pháp** trên menu.
 :::
 
-👉 Bắt đầu: [1 · Word — Draft từ prompt →](/khoa-hoc/buoi-2/ly-thuyet/1-word-draft/)
+👉 Bắt đầu: [1 · Word — Draft từ prompt →](/khoa-hoc/buoi-2/01-word-draft/)

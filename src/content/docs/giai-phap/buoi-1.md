@@ -3,7 +3,7 @@ title: "Đáp án Quiz · Buổi 1"
 description: Đáp án và giải thích Quiz Buổi 1 — GenAI, Copilot, core components và prompt G-C-S-E.
 ---
 
-Đối chiếu sau khi bạn đã làm [Quiz Buổi 1](/khoa-hoc/buoi-1/quiz/).
+Đối chiếu sau khi bạn đã làm [Quiz Buổi 1](/khoa-hoc/buoi-1/15-assessment/).
 
 1. **B — LLM + Microsoft Graph + dữ liệu tổ chức.** Copilot ghép ngữ cảnh từ dữ liệu tổ chức (qua Graph) vào câu hỏi trước khi mô hình trả lời (*grounding*).
 2. **B — Không.** Dữ liệu của bạn không dùng để huấn luyện mô hình nền tảng — cam kết bảo mật cốt lõi.

@@ -32,11 +32,12 @@ Sau Buổi 1, bạn có thể:
 
 ## Lộ trình Buổi 1
 
-**📖 Lý thuyết (7 unit):** GenAI → Copilot khác gì → Use case → Core components → Mở rộng → Prompt G-C-S-E → Best practices.
-**🧪 Lab · ✍️ Bài tập · 🎓 Dự án · ❓ Quiz · 🎭 Role play · 💬 Feedback.**
+Các bài **xen kẽ** giữa đọc lý thuyết, kiểm tra nhanh và lab thực hành (kiểu Coursera):
+
+📖 GenAI → 📖 Copilot khác gì → 📖 Use case → ❓ Kiểm tra nhanh → 📖 Core components → 📖 Mở rộng → 🧪 Lab Chat → 📖 Prompt G-C-S-E → 📖 Best practices → 🧪 Lab prompt → ❓ Kiểm tra nhanh → ✍️ Bài tập → 🎓 Dự án → 🎭 Role play → ❓ Module assessment → 🏁 Tổng kết → 💬 Feedback.
 
 :::note[Cách học]
-Đi theo thứ tự sidebar. Mở Copilot thật của bạn để thực hành song song. Đáp án Quiz và **video chữa Dự án** nằm ở mục **Giải pháp** trên menu.
+Dùng nút **Trang sau/Trang trước** ở cuối mỗi trang để đi theo đúng thứ tự. Đáp án **Module assessment** và **video chữa Dự án** nằm ở mục **Giải pháp** trên menu; các **kiểm tra nhanh** có đáp án gấp/hiện ngay trong bài.
 :::
 
-👉 Bắt đầu: [1 · GenAI là gì? →](/khoa-hoc/buoi-1/ly-thuyet/1-genai/)
+👉 Bắt đầu: [GenAI là gì? →](/khoa-hoc/buoi-1/01-genai/)

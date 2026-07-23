@@ -3,7 +3,7 @@ title: "Đáp án Quiz · Buổi 5"
 description: Đáp án và giải thích Quiz Buổi 5 — SharePoint Agents, oversharing, Restricted SharePoint Search và scope.
 ---
 
-Đối chiếu sau khi bạn đã làm [Quiz Buổi 5](/khoa-hoc/buoi-5/quiz/).
+Đối chiếu sau khi bạn đã làm [Quiz Buổi 5](/khoa-hoc/buoi-5/09-assessment/).
 
 1. **Tạo một SharePoint Agent cơ bản cần gì?**
    ✅ **Không cần code — tạo 1-click ngay trên thư viện.** Chỉ cần bấm Copilot → Create an agent trên thư viện tài liệu; Copilot Studio và code chỉ dành cho trường hợp nâng cao.

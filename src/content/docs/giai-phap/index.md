@@ -6,7 +6,7 @@ description: Đáp án Quiz kèm giải thích và video chữa bài Dự án. B
 Khu vực này chứa **đáp án + giải thích Quiz** của từng buổi và **video chữa bài Dự án**. Hãy tự làm trước, rồi đối chiếu ở đây để hiểu sâu hơn.
 
 :::note[Về Bài tập]
-Phần **Bài tập** (✍️) trong mỗi module là **dạng mở**, gắn với công việc thật của bạn — **không có lời giải cố định**. Hãy dùng tiêu chí tự đánh giá trong từng bài và [chia sẻ feedback](/khoa-hoc/buoi-1/feedback/) để nhận góp ý.
+Phần **Bài tập** (✍️) trong mỗi module là **dạng mở**, gắn với công việc thật của bạn — **không có lời giải cố định**. Hãy dùng tiêu chí tự đánh giá trong từng bài và [chia sẻ feedback](/khoa-hoc/buoi-1/17-feedback/) để nhận góp ý.
 :::
 
 ## Đáp án Quiz theo buổi

@@ -26,4 +26,4 @@ Sau Buổi 3, bạn có thể:
 Đi theo thứ tự sidebar. Mở một file Excel thật (đã là **Table** và nằm trên **OneDrive/SharePoint**) để thực hành song song. Đáp án Quiz nằm ở mục **Giải pháp** trên menu.
 :::
 
-👉 Bắt đầu: [0 · Điều kiện tiên quyết →](/khoa-hoc/buoi-3/ly-thuyet/0-dieu-kien/)
+👉 Bắt đầu: [0 · Điều kiện tiên quyết →](/khoa-hoc/buoi-3/01-dieu-kien/)

@@ -3,7 +3,7 @@ title: "Video chữa bài Dự án · Buổi 1"
 description: Bài mẫu và video chữa Dự án "Ngày đầu tiên của bạn với Copilot".
 ---
 
-Dành cho [🎓 Dự án Buổi 1](/khoa-hoc/buoi-1/du-an/). Hãy **tự làm trước**, rồi xem chữa bài để so sánh cách tiếp cận.
+Dành cho [🎓 Dự án Buổi 1](/khoa-hoc/buoi-1/13-du-an/). Hãy **tự làm trước**, rồi xem chữa bài để so sánh cách tiếp cận.
 
 :::note[🎬 Video chữa bài sẽ cập nhật]
 Video giảng viên chữa Dự án (đi qua từng prompt và cách tinh chỉnh) sẽ được chèn ở đây. Nhúng bằng đoạn HTML:

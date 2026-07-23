@@ -3,7 +3,7 @@ title: "Đáp án Quiz · Buổi 2"
 description: Đáp án và giải thích Quiz Buổi 2 — Word & PowerPoint.
 ---
 
-Đối chiếu sau khi bạn đã làm [Quiz Buổi 2](/khoa-hoc/buoi-2/quiz/).
+Đối chiếu sau khi bạn đã làm [Quiz Buổi 2](/khoa-hoc/buoi-2/13-assessment/).
 
 1. **Để deck từ file Word đẹp, nên làm gì với file Word?**
    ✅ **Dùng Heading (Heading 1, 2…) cho các mục.** Copilot dựa vào cấu trúc heading để chia slide và mục.
